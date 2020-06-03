@@ -2,74 +2,99 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background:  whitesmoke;
+    
   }
-  body {
-    min-height: 100vh;
+  body{
+    background: #09b0a2;
+    min-height: 320px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .calculator {
-    min-height: 100%;
+    height: 100%;
     width: 50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-start;
     border: 2px solid black;
+    margin: 10%;
+    background-color: whitesmoke;
   }
   
   .screen {
     width: 100%;
     display: block;
-    border: none;
-    background: rgb(41, 41, 51);
+    border: 2px solid black;
+    background: #FFFFFF;
     font-size: 50px;
-    color: whitesmoke;
+    color: black;
     padding: 2rem;
   }
   
   .btn {
     width: 20%;
+    height: 10%;
     display: inline-block;
     padding: 2rem 0;
-    margin: 0;
+    margin: 1%;
   }
   
   .yellow-btn {
-    background: rgb(241, 238, 34);
+    background: #669999
+    ;
+    width: 20%;
+    height: 10%;
+    display: inline-block;
+    padding: 2rem 0;
+    border-radius: 2px;
+    flex: wrap;
+    flex-grow: 1;
+    margin: 1%;
   }
   
   .grey-btn {
-    background: lightgray;
+    background: #669999;
   }
-  
   .equal {
-    width: 20vw;
-    height: 10vh;
+    width: 30%;
+    height: 10%;
     display: inline-block;
     padding: 2rem 0;
     border-radius: 2px;
     flex: wrap;
-    background: lime;
+    background: #669999;
     flex-grow: 1;
+    margin: 1%;
   }
   .clear {
-    width: 20vw;
-    height: 10vh;
+    width: 60%;
+    height: 25%;
     display: inline-block;
     padding: 2rem 0;
     border-radius: 2px;
     flex: wrap;
-    background: red;
+    background: #669999;
     flex-grow: 1;
+    margin: 1%;
   }
-
-  @media screen and (max-width:552px){
-    body{
-        background: black;
+  #me{
+    width: 42%;
+  }
+  .grey-btn:hover,
+  .clear:hover,
+  .yellow-btn:hover,
+  .equal:hover{
+    background-color: whitesmoke;
     }
+  
+    @media screen and (max-width:768px){
+
+ 
 
 
+    }
+    
 
-  }
