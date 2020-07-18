@@ -1,10 +1,10 @@
 To push Complete code
 
-git init
-git add .
-git push
+1.git init
+2.git add .
+3.git push
 
 To push Incomplete code
 
-git commit -am 'Message'
-git push origin HEAD
+1.git commit -am 'Message'
+2.git push origin HEAD
